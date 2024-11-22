@@ -47,7 +47,38 @@ h1{
 
 h1:hover {
   color: #9BB6FF;
+  }
+
+.button {
+  margin-left: 30vw;
+  margin-top: 10vw;
+  width: 8vw;
+  height: 8vw;
+  color: white;
+  border: 0.5vw solid white;
+  border-radius: 100px;
+  font-family: 'InterRegular';
+  font-size: 5vw;
+  text-align: center;
+  padding: 1vw;
 }
+
+.button:hover {
+  color: #9BB6FF;
+  border: 0.5vw solid #9BB6FF;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #9BB6FF;
+  color: #161616;
+}
+
+.stages {
+  display: flex;
+  justify-content: space-around;
+}
+
 
 .circle {
   position: absolute;
