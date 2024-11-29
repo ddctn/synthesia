@@ -10,6 +10,50 @@ body {
   background-color: #161616;
 }
 
+.center {
+  margin-left: 30vw;
+  position: relative;
+  top: 10px;
+}
+
+.rotating-div {
+  width: 150px;
+  height: 200px;
+  border: 3px dashed #9BB6FF;
+  border-radius: 50%;
+  transform-origin: left center; /* Центр вращения - левое ребро */ 
+  animation: spin 3s linear infinite;
+  transform-style: preserve-3d; /* Для эффекта глубины */ 
+  position: absolute;
+  animation-play-state: running;
+}
+
+.rotating-div2 {
+  animation-delay: 0.45s; /* Задержка 0.5 секунды */ 
+}
+
+.rotating-div3 {
+  animation-delay: 1.5s; /* Задержка 0.5 секунды */ 
+}
+
+.rotating-div4 {
+  animation-delay: 1.95s; /* Задержка 0.5 секунды */ 
+}
+
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.rotating-div:hover {
+  background-color: #9BB6FF;
+  animation-play-state: paused;
+}
+
 .rowcontainer {
   margin-top: 1vw;
   width: 100vw;
@@ -25,7 +69,6 @@ body {
   width: 1000px;
   color: #9BB6FF;
   font-family: 'InterRegular';
-  position: absolute;
   white-space: nowrap;
   animation: row 2s linear infinite;
   animation-play-state: running;
@@ -58,6 +101,88 @@ h1 {
   letter-spacing: -0.05em;
   font-family: 'Iceberg';
 }
+
+.proton {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  animation: protons 0.5s linear infinite both;
+}
+
+.proton img {
+  width: 1.8vw;
+  height: 1.8vw;
+}
+
+.proton1 {
+  margin: -25% 0% 0% 4%;
+}
+.proton2 {
+  margin: -19% 0% 0% 33%;
+}
+.proton3 {
+  margin: 7% 0% 0% 16%;
+}
+.proton4 {
+  margin: -3% 0% 0% 45%;
+}
+.proton5 {
+  margin: -21% 0% 0% 63%;
+}
+.proton6 {
+  margin: 11% 0% 0% 79%;
+}
+.proton7 {
+  margin: -13% 0% 0% 97%;
+}
+
+@keyframes protons {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  90% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
 
 .electron {
   width: 50px;
@@ -163,37 +288,6 @@ h1 {
   animation: wavytext1 5s ease infinite;
 }
 
-/*
-
-
-
-.runningarrow {
-  position: absolute;
-  width: 100%;
-  height: 4vw;
-  margin-left: -100%;
-  display: flex;
-  animation: arrowrun 3s linear infinite;
-  animation-play-state: running;
-  position: relative;
-  overflow: hidden;
-  
-}
-
-.runningarrow img{
-  height: 2vw;
-  margin-right: 1vw;
-}
-
-.runningarrow:hover {
-  transition: all 0.15s ease;
-  animation-play-state: paused;
-}
-
-
-
-
-
 .circle {
   margin-top: 20vh;
   margin-left: 15vw;
@@ -204,6 +298,16 @@ h1 {
   background-position: center;
   animation: circle 5s infinite;
 }
+
+/*
+
+
+
+
+
+
+
+
 
 
 
@@ -217,40 +321,9 @@ body {
   background-color: #222;
 }*/
 /*
-.center {
-  position: relative;
-  top: 10px;
-}
 
-.rotating-div {
-  width: 150px;
-  height: 200px;
-  border: 1px solid orange;
-  border-radius: 50%;
-  transform-origin: left center; /* Центр вращения - левое ребро */ /*
-  animation: spin 3s linear infinite;
-  transform-style: preserve-3d; /* Для эффекта глубины */ /*
-  position: absolute;
-  animation-play-state: running;
-}
 
-.rotating-div2 {
-  animation-delay: 0.5s; /* Задержка 0.5 секунды */ /*
-}
 
-@keyframes spin {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-
-.rotating-div:hover {
-  background-color: #9BB6FF;
-  animation-play-state: paused;
-}
 
 
 /*
@@ -341,50 +414,5 @@ body {
 
 
 
-
-
-
-
-input {
-  display: block;
-  margin: 10px;
-  width: 24px;
-  height: 24px;
-  border-radius: 12px;
-  cursor: pointer;
-  vertical-align: middle;
-  box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
-  background-color: hsla(0,0%,0%,.2);
-  background-image: -webkit-radial-gradient( hsla(200,100%,90%,1) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );
-  background-repeat: no-repeat;
-  -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
-    -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
-  outline: none;
-}
-
-input:checked {
-  -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
-    -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
-}
-
-input:active {
-  -webkit-transform: scale(1.5);
-  -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
-}
-
-
-
-
-input,
-input:active {
-  background-position: 0 24px;
-}
-input:checked {
-  background-position: 0 0;
-}
-input:checked ~ input,
-input:checked ~ input:active {
-  background-position: 0 -24px;
-}
 
 */
