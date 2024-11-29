@@ -11,14 +11,18 @@ body {
 }
 
 .center {
-  margin-left: 30vw;
+  margin-left: 50%;
   position: relative;
   top: 10px;
 }
 
 .rotating-div {
-  width: 150px;
-  height: 200px;
+  width: 30vw;
+  height: 30vw;
+  color: #161616;
+  font-family: 'InterSemiBold';
+  font-size: 1.8vw;
+  text-align: center;
   border: 3px dashed #9BB6FF;
   border-radius: 50%;
   transform-origin: left center; /* Центр вращения - левое ребро */ 
@@ -52,6 +56,7 @@ body {
 .rotating-div:hover {
   background-color: #9BB6FF;
   animation-play-state: paused;
+  animation: blink 3s infinite linear;
 }
 
 .rowcontainer {
@@ -187,7 +192,6 @@ h1 {
 .electron {
   width: 50px;
   height: 50px;
-
   --x-amplitude: 20vw;
   --y-amplitude: 10vw;
   --x: calc(cos(var(--angle)) * var(--x-amplitude));
@@ -299,120 +303,3 @@ h1 {
   animation: circle 5s infinite;
 }
 
-/*
-
-
-
-
-
-
-
-
-
-
-
-/*
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #222;
-}*/
-/*
-
-
-
-
-
-/*
-
-.stages {
-  display: flex;
-  justify-content: space-around;
-}
-
-
-.menu:hover {
-  animation-play-state: paused;
-  color: #9BB6FF;
-  cursor: pointer;
-}
-.menu1:hover {
-  animation-play-state: paused;
-  color: #9BB6FF;
-  cursor: pointer;
-}
-
-.button {
-  margin-left: 30vw;
-  margin-top: 10vw;
-  width: 8vw;
-  height: 8vw;
-  color: white;
-  border: 0.5vw solid white;
-  border-radius: 100px;
-  font-family: 'InterRegular';
-  font-size: 5vw;
-  display: flex;
-  justify-content: center;
-  padding: 1vw;
-}
-
-.button:hover {
-  color: #9BB6FF;
-  border: 0.5vw solid #9BB6FF;
-  cursor: pointer;
-}
-
-.button:active {
-  background-color: #9BB6FF;
-  color: #161616;
-}
-
-
-
-.buttonblink {
-  border: 0.5vw solid white;
-  border-radius: 100px;
-  margin-left: 30vw;
-  margin-top: 10vw;
-  width: 8vw;
-  height: 8vw;
-  color: white;
-  font-family: 'InterRegular';
-  font-size: 5vw;
-  display: flex;
-  justify-content: center;
-  padding: 1vw;
-}
-
-.buttonblink:hover{
-  animation: blink 1s linear infinite;
-}
-
-
-
-.slow {
-  width: 100%;
-  height: max-content;
-  color: white;
-  font-family: 'InterRegular';
-  font-size: 50px;
-}
-
-.slow:hover {
-  animation: slow 1s linear infinite;
-}
-
-@keyframes slow {
-  0%{transform: scaleX(1);}
-  100% {
-         transform: scaleX(3);}
-}
-
-
-
-
-*/
