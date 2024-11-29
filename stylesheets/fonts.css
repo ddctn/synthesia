@@ -12,3 +12,8 @@
   font-family: 'InterSemiBold';
   src: url(../fonts/Inter_24pt-SemiBold.ttf);
 }
+
+@font-face {
+  font-family: 'Iceberg';
+  src: url(../fonts/Iceberg-Regular.ttf);
+}
