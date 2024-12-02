@@ -1,3 +1,42 @@
+@keyframes row {
+  0%   {transform: translateX(-50%)}
+  100% {transform: translateX(0%)}
+}
+
+@keyframes protons {
+  0%   {transform: translate(0);}
+  10%  {transform: translate(-2px, -2px);}
+  20%  {transform: translate(2px, -2px);}
+  30%  {transform: translate(-2px, 2px);}
+  40%  {transform: translate(2px, 2px);}
+  50%  {transform: translate(-2px, -2px);}
+  60%  {transform: translate(2px, -2px);}
+  70%  {transform: translate(-2px, 2px);}
+  80%  {transform: translate(-2px, -2px);}
+  90%  {transform: translate(2px, -2px);}
+  100% {transform: translate(0);}
+}
+
+@keyframes electrons {
+  from { transform: rotate(0deg) translateX(17vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(17vw) rotate(-360deg); }
+}
+
+@keyframes electrons2 {
+  from { transform: rotate(0deg) translateX(10vw) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(10vw) rotate(360deg); }
+}
+
+@keyframes electrons3 {
+  from { transform: rotate(0deg) translateX(15vw) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(15vw) rotate(360deg); }
+}
+
+@keyframes spin {
+  from { transform: rotateY(0deg);}
+  to   { transform: rotateY(360deg);}
+}
+
 @keyframes waves {
   0%{background-position:   0      0;}
   25%{background-position: -25vw   0;}
@@ -13,9 +52,9 @@
 }
  
 @keyframes wavytext1 {
-  0%   {transform: translateY(100%);}
-  50%  {transform: translateY(-100%);}
-  100% {transform: translateY(100%);}
+  0%   {transform: translateY(45vw);}
+  50%  {transform: translateY(0);}
+  100% {transform: translateY(45vw);}
 }
 
 @keyframes blink {

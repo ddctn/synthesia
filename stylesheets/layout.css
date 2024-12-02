@@ -5,58 +5,13 @@
 body {
   width: 100vw;
   min-height: 100vh;
-  margin: 0;
   overflow-x: hidden;
   background-color: #161616;
 }
 
-.center {
-  margin-left: 50%;
-  position: relative;
-  top: 10px;
-}
-
-.rotating-div {
-  width: 30vw;
-  height: 30vw;
-  color: #161616;
-  font-family: 'InterSemiBold';
-  font-size: 1.8vw;
-  text-align: center;
-  border: 3px dashed #9BB6FF;
-  border-radius: 50%;
-  transform-origin: left center; /* Центр вращения - левое ребро */ 
-  animation: spin 3s linear infinite;
-  transform-style: preserve-3d; /* Для эффекта глубины */ 
-  position: absolute;
-  animation-play-state: running;
-}
-
-.rotating-div2 {
-  animation-delay: 0.45s; /* Задержка 0.5 секунды */ 
-}
-
-.rotating-div3 {
-  animation-delay: 1.5s; /* Задержка 0.5 секунды */ 
-}
-
-.rotating-div4 {
-  animation-delay: 1.95s; /* Задержка 0.5 секунды */ 
-}
-
-@keyframes spin {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(360deg);
-  }
-}
-
-.rotating-div:hover {
-  background-color: #9BB6FF;
-  animation-play-state: paused;
-  animation: blink 3s infinite linear;
+.mainsection {
+  width: 100%;
+  height: 57.3vw;
 }
 
 .rowcontainer {
@@ -77,11 +32,6 @@ body {
   white-space: nowrap;
   animation: row 2s linear infinite;
   animation-play-state: running;
-}
-
-@keyframes row {
-  0%   {transform: translateX(-50%)}
-  100% {transform: translateX(0%)}
 }
 
 .row:hover {
@@ -108,8 +58,8 @@ h1 {
 }
 
 .proton {
-  width: 50px;
-  height: 50px;
+  width: 1.8vw;
+  height: 1.8vw;
   position: absolute;
   animation: protons 0.5s linear infinite both;
 }
@@ -141,104 +91,115 @@ h1 {
   margin: -13% 0% 0% 97%;
 }
 
-@keyframes protons {
-  0% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-  10% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  20% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-  }
-  30% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
-  }
-  40% {
-    -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
-  }
-  50% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  60% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-  }
-  70% {
-    -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
-  }
-  80% {
-    -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
-  }
-  90% {
-    -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
-  }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-
-
 .electron {
-  width: 50px;
-  height: 50px;
-  --x-amplitude: 20vw;
-  --y-amplitude: 10vw;
-  --x: calc(cos(var(--angle)) * var(--x-amplitude));
-  --y: calc(sin(var(--angle)) * var(--y-amplitude));
-  translate: var(--x) var(--y);
-  z-index: calc(var(--z)); /* calc() is for Safari */
-  animation: revolve 6s linear infinite; 
+  width: 1.8vw;
+  height: 1.8vw;
+  position: absolute;
 }
 
 .electron img {
-  width: 50px;
-  height: 50px;
+  width: 1.8vw;
+  height: 1.8vw;
 }
 
-@property --angle {
-  syntax: '<angle>';
-  inherits: true;
-  initial-value: 0deg;
+.electron1 {
+  margin: -25% 0% 0% 4%;
+  animation: electrons 4s linear infinite;
 }
 
-@property --z {
-  syntax: '<integer>';
-  inherits: true;
-  initial-value: 0;
+.electron2 {
+  margin: -19% 0% 0% 33%;
+  animation: electrons2 4s linear infinite;
+  animation-delay: 0.2s; 
 }
 
-@keyframes revolve {
-  from {
-    --angle: 0deg;
-    --z: 0;
-  }
-  to {
-    --angle: 360deg;
-    --z: -1;
-  }
+.electron3 {
+  margin: 7% 0% 0% 16%;
+  animation: electrons 4s linear infinite;
 }
+
+.electron4 {
+  margin: -3% 0% 0% 45%;
+  animation: electrons2 4s linear infinite;
+  animation-delay: 0.4s; 
+}
+
+.electron5 {
+  margin: -21% 0% 0% 63%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.45s; 
+}
+
+.electron6 {
+  margin: 11% 0% 0% 79%;
+  animation: electrons3 4s linear infinite;
+}
+
+.electron7 {
+  margin: -13% 0% 0% 97%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.1s; 
+}
+
+/*--------------------------------------------------------*/
 
 .secondsection {
   display: block;
   margin-top: 5vw;
   width: 100%;
-  height: 33vw;
+  height: 53vw;
+}
+
+.center {
+  margin-left: 50%;
+  position: relative;
+  top: 10px;
+}
+
+.rotating-div {
+  width: 30vw;
+  height: 30vw;
+  color: #161616;
+  font-family: 'InterSemiBold';
+  font-size: 1.8vw;
+  text-align: center;
+  border: 3px dashed #9BB6FF;
+  border-radius: 50%;
+  transform-origin: left center; /* Центр вращения - левое ребро */ 
+  animation: spin 3s infinite both;
+  transform-style: preserve-3d; /* Для эффекта глубины */ 
+  position: absolute;
+  animation-play-state: running;
+}
+
+.rotating-div2 {
+  animation-delay: 0.45s; 
+}
+
+.rotating-div3 {
+  animation-delay: 1.5s; 
+}
+
+.rotating-div4 {
+  animation-delay: 1.95s;
+}
+
+.rotating-div:hover {
+  background-color: #9BB6FF;
+  animation-play-state: paused;
+  animation: blink 3s infinite both;
+}
+
+.thirdsection {
+  margin-top: 5vw;
+  width: 100%;
+  height: 35%;
+  background-color: #ff00ff;
 }
 
 .wavesblock {
   width: 100vw;
-  height: 50vw;
+  height: 30%;
   position: absolute;
   background: url(../images/waves.svg);
   background-repeat: no-repeat;
@@ -250,7 +211,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  height: 50vw;
+  height: 30%;
   color: white;
   font-family: 'InterSemiBold';
   font-size: 1.6vw;
@@ -259,6 +220,7 @@ h1 {
 .wavetext1{
   width: 10.52vw;
   height: 6vw;
+  justify-content: flex-start;
 }
 
 .wavetext2{
@@ -282,6 +244,8 @@ h1 {
   color: white;
   font-family: 'InterRegular';
   margin-top: 8vw;
+  display: flex;
+  align-items: flex-start;
   animation: wavytext 5s ease infinite;
 }
 
@@ -289,6 +253,8 @@ h1 {
   color: white;
   font-family: 'InterRegular';
   margin-top: 10vw;
+  display: flex;
+  align-items: flex-end;
   animation: wavytext1 5s ease infinite;
 }
 
