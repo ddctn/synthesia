@@ -11,7 +11,7 @@ body {
 
 .mainsection {
   width: 100%;
-  height: 57.3vw;
+  height: 57vw;
 }
 
 .rowcontainer {
@@ -147,27 +147,59 @@ h1 {
   display: block;
   margin-top: 5vw;
   width: 100%;
-  height: 53vw;
+  height: 42vw;
+  font-family: 'InterRegular';
+  font-size: 1.5vw;
+  overflow-y: hidden;
+}
+
+.fallingtext {
+  display: flex;
+  width: 100%;
+  height: 42vw;
+  position: relative;
+}
+
+.fall {
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+.fall1 {
+  animation: falling 1.5s linear infinite;
+}
+.fall2 {
+  animation: falling2 1.5s linear infinite;
+  animation-delay: 0.5s;
+}
+.fall3 {
+  animation: falling3 1.5s linear infinite;
+  animation-delay: 0.8s;
+}
+.fall4 {
+  animation: falling4 1.5s linear infinite;
+  animation-delay: 1s;
+}
+.fall5 { 
+  animation: falling5 1.5s linear infinite;
+  animation-delay: 1.3s;
 }
 
 .center {
+  margin-top: -41%;
   margin-left: 50%;
   position: relative;
-  top: 10px;
 }
 
 .rotating-div {
-  width: 30vw;
-  height: 30vw;
-  color: #161616;
-  font-family: 'InterSemiBold';
-  font-size: 1.8vw;
-  text-align: center;
+  width: 40vw;
+  height: 40vw;
   border: 3px dashed #9BB6FF;
   border-radius: 50%;
-  transform-origin: left center; /* Центр вращения - левое ребро */ 
-  animation: spin 3s infinite both;
-  transform-style: preserve-3d; /* Для эффекта глубины */ 
+  transform-origin: left center; 
+  animation: spin 3s linear infinite;
+  transform-style: preserve-3d; 
   position: absolute;
   animation-play-state: running;
 }
@@ -187,23 +219,24 @@ h1 {
 .rotating-div:hover {
   background-color: #9BB6FF;
   animation-play-state: paused;
-  animation: blink 3s infinite both;
 }
 
 .thirdsection {
   margin-top: 5vw;
   width: 100%;
-  height: 35%;
+  height: 42vw;
+  overflow-y: hidden;
   background-color: #ff00ff;
+  position: relative;
 }
 
 .wavesblock {
   width: 100vw;
-  height: 30%;
+  height: 40vw;
   position: absolute;
   background: url(../images/waves.svg);
   background-repeat: no-repeat;
-  animation: waves 6s linear infinite;
+  animation: waves 4s linear infinite;
 }
 
 .wavetextblock {
@@ -258,7 +291,7 @@ h1 {
   animation: wavytext1 5s ease infinite;
 }
 
-.circle {
+/* .circle {
   margin-top: 20vh;
   margin-left: 15vw;
   width: 70vw;
@@ -267,5 +300,16 @@ h1 {
   background-repeat: no-repeat;
   background-position: center;
   animation: circle 5s infinite;
+} */
+
+/* .fifthsection {
+  width: 100%;
+  height: 79vw;
+  margin-top: 10%;
+  background-color: #ff00ff;
 }
+
+.circles {
+  display: flex;
+} */
 

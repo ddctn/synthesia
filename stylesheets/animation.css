@@ -32,6 +32,32 @@
   to   { transform: rotate(-360deg) translateX(15vw) rotate(360deg); }
 }
 
+
+@keyframes falling {
+  0% { top: -10vw; left: 10%;}
+  100% { top:  90%;  left: 10%; opacity: 10%; font-size: 2vw; rotate: 30deg;}
+}
+
+@keyframes falling2 {
+  0% { top: -10vw; left: 30%;}
+  100% { top:  90%;  left: 30%; opacity: 10%; font-size: 1.8vw; rotate: -30deg;}
+}
+
+@keyframes falling3 {
+  0% { top: -10vw; left: 70%;}
+  100% { top:  90%;  left: 70%; opacity: 10%; font-size: 1.8vw; rotate: 40deg;}
+}
+
+@keyframes falling4 {
+  0% { top: -10vw; left: 50%;}
+  100% { top:  90%;  left: 50%; opacity: 10%; font-size: 1.8vw; rotate: -60deg;}
+}
+
+@keyframes falling5 {
+  0% { top: -10vw; left: 90%;}
+  100% { top:  90%;  left: 90%; opacity: 10%; font-size: 1.8vw; rotate: -40deg;}
+}
+
 @keyframes spin {
   from { transform: rotateY(0deg);}
   to   { transform: rotateY(360deg);}
@@ -57,47 +83,15 @@
   100% {transform: translateY(45vw);}
 }
 
-@keyframes blink {
-  0%  {opacity: 1;}
-  10% {opacity: 0;}
-  11% {opacity: 1;}
-  15% {opacity: 0;}
-  20% {opacity: 1;}
-  21% {opacity: 0;}
-  27% {opacity: 1;}
-  30% {opacity: 0;}
-  32% {opacity: 1;}
-  39% {opacity: 0;}
-  41% {opacity: 1;}
-  45% {opacity: 0;}
-  55% {opacity: 1;}
-  51% {opacity: 0;}
-  65% {opacity: 1;}
-  80% {opacity: 0;}
-  98% {opacity: 1;}
-  100%{opacity: 0;}
-}
-
 @keyframes circle {
   0%   {transform: rotate(0deg);   scale: 0.6;}
   50%  {transform: rotate(180deg); scale: 1;}
   100% {transform: rotate(360deg); scale: 0.6;}
 }
 
-/*
-
-@keyframes running {
-  0%   {transform: translateX(0);}
-  100% {transform: translateX(-19px);}  
+@keyframes rotation {
+  0%   {transform: rotate(0deg); }
+  50%  {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
 }
-
-@keyframes rotate {
-  0%{transform:rotateX(0)}
-  50%{transform:rotateX(180deg)}
-  100%{transform:rotateX(360deg)}
-}
-
-
-
-/*
 
