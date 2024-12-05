@@ -72,15 +72,15 @@
 }
 
 @keyframes wavytext {
-  0%   {transform: translateY(-100%);}
-  50%  {transform: translateY(100%);}
-  100% {transform: translateY(-100%);}
+  0%   {transform: translateY(-7vw);}
+  50%  {transform: translateY(23vw);}
+  100% {transform: translateY(-7vw);}
 }
  
 @keyframes wavytext1 {
-  0%   {transform: translateY(45vw);}
-  50%  {transform: translateY(0);}
-  100% {transform: translateY(45vw);}
+  0%   {transform: translateY(23vw);}
+  50%  {transform: translateY(-7vw);}
+  100% {transform: translateY(23vw);}
 }
 
 @keyframes circle {
