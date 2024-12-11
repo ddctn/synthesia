@@ -2,11 +2,15 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
   background-color: #161616;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .mainsection {
@@ -42,8 +46,8 @@ body {
 }
 
 .headerblock{
-  width: 35vw;
-  height: 15vw;
+  width: 35vmax;
+  height: 15vmax;
   margin: auto;
   position: relative;
   margin-top: 30vh; 
@@ -53,7 +57,7 @@ body {
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 9vmax;
   color: white;
   letter-spacing: -0.05em;
   font-family: 'Iceberg';
@@ -143,6 +147,30 @@ h1 {
   animation-delay: 0.1s; 
 }
 
+.electron8 {
+  margin: -13% 0% 0% 97%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.1s; 
+}
+
+.electron9 {
+  margin: -13% 0% 0% 97%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.1s; 
+}
+
+.electron91 {
+  margin: -13% 0% 0% 97%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.1s; 
+}
+
+.electron92 {
+  margin: -13% 0% 0% 97%;
+  animation: electrons 4s linear infinite;
+  animation-delay: 0.1s; 
+}
+
 /*--------------------------------------------------------*/
 
 .secondsection {
@@ -170,24 +198,28 @@ h1 {
 }
 
 .fall1 {
-  animation: falling 1.8s linear infinite;
+  animation: falling 3s linear infinite;
 }
 .fall2 {
-  animation: falling2 1.8s linear infinite;
+  animation: falling2 3s linear infinite;
   animation-delay: 0.5s;
 }
 .fall3 {
-  animation: falling3 1.8s linear infinite;
+  animation: falling3 3s linear infinite;
   animation-delay: 0.8s;
 }
 .fall4 {
-  animation: falling4 1.8s linear infinite;
+  animation: falling4 3s linear infinite;
   animation-delay: 1s;
 }
 .fall5 { 
-  animation: falling5 1.8s linear infinite;
+  animation: falling5 3s linear infinite;
   animation-delay: 1.3s;
 }
+.fall6 { 
+  animation: falling6 3s linear infinite;
+  animation-delay: 1.5s;
+} 
 
 .center {
   margin-top: -41%;
@@ -233,8 +265,7 @@ h1 {
 .thirdsection {
   margin-top: 5vw;
   width: 100%;
-  height: 42vw;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -307,16 +338,16 @@ h1 {
 
 .fourthsection {
   width: 100%;
-  height: 42vw; 
+  height: 50vw;  
   margin: auto;
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   margin-top: 30vh; 
   display: flex;
   justify-content: center;
 }
 
-.circlelectron1:hover ~ .circlelectron2 {
+/* .circlelectron1:hover ~ .circlelectron2 {
   animation-play-state: running;
 }
 
@@ -334,11 +365,12 @@ h1 {
 
 .circlelectron5:hover ~ .circlelectron6 {
   animation-play-state: paused;
-}
+} */
 
 .circle {
   width: 70vw;
   height: 42vw;
+  position: absolute; 
   background: url(../images/circle.svg);
   background-size: 42vw 42vw;
   background-repeat: no-repeat;
@@ -360,31 +392,37 @@ h1 {
 .circlelectron1 {
   margin: 17% 45% 0% 0%;
   animation: circlelectron 1s linear infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
+/* 
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+} */
 
 .circlelectron2 {
   margin: 30% 75% 0% 0%;
   animation: circlelectron 1s linear infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 .circlelectron3 {
   margin: 21% 0% 0% 60%;
   animation: circlelectron 1s linear infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 .circlelectron4 {
   margin: 37% 0% 0% 28%;
   animation: circlelectron 1s linear infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 .circlelectron5 {
   margin: 7% 0% 0% 86%;
   animation: circlelectron 1s linear infinite;
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 .circlelectron6 {
@@ -442,21 +480,21 @@ h1 {
 }
 
 .circle1 {
-  animation: rotation 5s linear infinite, moving 5s 0s normal none infinite running linear;
+  animation: rotation 5s linear infinite;
 }
 
  .circle2 {
-  animation: rotation1 5s linear infinite, moving1 5s 0s normal none infinite running linear;
+  animation: rotation1 5s linear infinite;
   animation-delay: 0.5s;
 }
 
 .circle3 {
-  animation: rotation 5s linear infinite, moving 5s 0s normal none infinite running linear;
+  animation: rotation 5s linear infinite;
   animation-delay: 1s;
 }  
 
 .circle4 {
-  animation: rotation1 5s linear infinite, moving1 5s 0s normal none infinite running linear;
+  animation: rotation1 5s linear infinite;
   animation-delay: 1.5s;
 }
 
