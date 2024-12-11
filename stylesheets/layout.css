@@ -192,6 +192,7 @@ h1 {
 }
 
 .fall {
+  opacity: 0;
   position: absolute;
   color: white;
   text-align: center;

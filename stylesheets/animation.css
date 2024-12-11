@@ -34,37 +34,37 @@
 
 
 @keyframes falling {
-  0% { top: -10vw; left: 10%;  opacity: 0%;}
+  0% { top: -10%; left: 10%;  opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 5%; opacity: 0%; font-size: 2vw; rotate: 30deg;}
 }
 
 @keyframes falling2 {
-  0% { top: -10vw; left: 30%; opacity: 0%;}
+  0% { top: -10%; left: 30%; opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 40%; opacity: 0%; font-size: 1.8vw; rotate: -30deg;}
 }
 
 @keyframes falling3 {
-  0% { top: -10vw; left: 70%; opacity: 0%;}
+  0% { top: -10%; left: 70%; opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 60%; opacity: 0%; font-size: 1.8vw; rotate: 40deg;}
 }
 
 @keyframes falling4 {
-  0% { top: -10vw; left: 50%; opacity: 0%;}
+  0% { top: -10%; left: 50%; opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 55%; opacity: 0%; font-size: 1.8vw; rotate: -60deg;}
 }
 
 @keyframes falling5 {
-  0% { top: -10vw; left: 90%; opacity: 0%;}
+  0% { top: -10%; left: 90%; opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 75%; opacity: 0%; font-size: 1.8vw; rotate: -40deg;}
 }
 
 @keyframes falling6 {
-  0% { top: -10vw; left: 20%; opacity: 0%;}
+  0% { top: -10%; left: 20%; opacity: 0%;}
   50%{ opacity: 100%;}
   100% { top:  90%;  left: 28%; opacity: 0%; font-size: 1.8vw; rotate: 45deg;}
 }
