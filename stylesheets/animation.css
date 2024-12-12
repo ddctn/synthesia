@@ -32,41 +32,89 @@
   to   { transform: rotate(-360deg) translateX(15vw) rotate(360deg); }
 }
 
+@keyframes electrons4 {
+  from { transform: rotate(0deg) translateX(13vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(13vw) rotate(-360deg); }
+}
+
+@keyframes electrons5 {
+  from { transform: rotate(0deg) translateX(12vw) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(12vw) rotate(360deg); }
+}
+
+@keyframes electrons6 {
+  from { transform: rotate(0deg) translateX(10vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(10vw) rotate(-360deg); }
+}
+
+@keyframes electrons7 {
+  from { transform: rotate(0deg) translateX(18vw) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(18vw) rotate(360deg); }
+}
+
+@keyframes electrons8 {
+  from { transform: rotate(0deg) translateX(18vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(18vw) rotate(-360deg); }
+}
+
+@keyframes electrons9 {
+  from { transform: rotate(0deg) translateX(8vw) rotate(0deg); }
+  to   { transform: rotate(-360deg) translateX(8vw) rotate(360deg); }
+}
+
 
 @keyframes falling {
   0% { top: -10%; left: 10%;  opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 5%; opacity: 0%; font-size: 2vw; rotate: 30deg;}
+  100% { top:  117%;  left: 5%; opacity: 0%; font-size: 2vw; rotate: 30deg;}
 }
 
 @keyframes falling2 {
   0% { top: -10%; left: 30%; opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 40%; opacity: 0%; font-size: 1.8vw; rotate: -30deg;}
+  100% { top: 110%;  left: 40%; opacity: 0%; font-size: 1.8vw; rotate: -30deg;}
 }
 
 @keyframes falling3 {
   0% { top: -10%; left: 70%; opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 60%; opacity: 0%; font-size: 1.8vw; rotate: 40deg;}
+  100% { top:  115%;  left: 60%; opacity: 0%; font-size: 1.8vw; rotate: 40deg;}
 }
 
 @keyframes falling4 {
   0% { top: -10%; left: 50%; opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 55%; opacity: 0%; font-size: 1.8vw; rotate: -60deg;}
+  100% { top:  111%;  left: 55%; opacity: 0%; font-size: 1.8vw; rotate: -60deg;}
 }
 
 @keyframes falling5 {
   0% { top: -10%; left: 90%; opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 75%; opacity: 0%; font-size: 1.8vw; rotate: -40deg;}
+  100% { top:  118%;  left: 75%; opacity: 0%; font-size: 1.8vw; rotate: -40deg;}
 }
 
 @keyframes falling6 {
   0% { top: -10%; left: 20%; opacity: 0%;}
   50%{ opacity: 100%;}
-  100% { top:  90%;  left: 28%; opacity: 0%; font-size: 1.8vw; rotate: 45deg;}
+  100% { top:  113%;  left: 28%; opacity: 0%; font-size: 1.8vw; rotate: 45deg;}
+}
+
+@keyframes falling6 {
+  0% { top: -10%; left: 35%; opacity: 0%;}
+  50%{ opacity: 100%;}
+  100% { top:  113%;  left: 28%; opacity: 0%; font-size: 1.8vw; rotate: 30deg;}
+}
+
+@keyframes falling6 {
+  0% { top: -10%; left: 20%; opacity: 0%;}
+  50%{ opacity: 100%;}
+  100% { top:  113%;  left: 30%; opacity: 0%; font-size: 1.8vw; rotate: -55deg;}
+}
+
+@keyframes falling9 {
+  0% { top: -10%; left: 10%; opacity: 0%;}
+  50%{ opacity: 100%;}
+  100% { top:  113%;  left: 25%; opacity: 0%; font-size: 1.8vw; rotate: 35deg;}
 }
 
 @keyframes spin {
@@ -81,13 +129,13 @@
 
 @keyframes wavytext {
   0%   {transform: translateY(-7vw);}
-  50%  {transform: translateY(23vw);}
+  50%  {transform: translateY(23vw); font-size: 1.9vw;}
   100% {transform: translateY(-7vw);}
 }
  
 @keyframes wavytext1 {
   0%   {transform: translateY(23vw);}
-  50%  {transform: translateY(-7vw);}
+  50%  {transform: translateY(-7vw); font-size: 1.9vw;}
   100% {transform: translateY(23vw);}
 }
 
@@ -98,24 +146,9 @@
 }
 
 @keyframes circlelectron {
-  from { transform: rotate(0deg) translateX(13vw) rotate(0deg); }
-  to   { transform: rotate(360deg) translateX(13vw) rotate(-360deg); }
-}
-
-/* 
-@keyframes circlelectron {
-  0%   {transform: translate(0);}
-  10%  {transform: translate(-1vw, -1vw);}
-  20%  {transform: translate(1vw, -1vw);}
-  30%  {transform: translate(-1vw, -1vw);}
-  40%  {transform: translate(1vw, -1vw);}
-  50%  {transform: translate(-1vw, -1vw);   transform: rotate(90deg);}
-  60%  {transform: translate(1vw, -1vw); }
-  70%  {transform: translate(-1vw, -1vw)}
-  80%  {transform: translate(1vw, -1vw);}
-  90%  {transform: translate(-1vw, -1vw);}
-  100% {transform: translate(0); transform: rotate(180deg);}
-} */
+  from { transform: rotate(0deg) translateX(9vw) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(9vw) rotate(-360deg); }
+} 
 
 @keyframes rotation {
   0% {transform: rotate(-0deg);    left: 0%;}
@@ -130,3 +163,8 @@
   100% {transform: rotate(-360deg); left: 80%;}
 } 
 
+@keyframes footer {
+  0% {opacity: 0%;}
+  95% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
