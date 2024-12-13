@@ -14,6 +14,10 @@ body, html {
   display: none;
 }
 
+button, button:hover {
+  cursor: url(../images/cursor.svg), auto;
+}
+
 .mainsection {
   width: 100%;
   height: 55vw;
