@@ -51,7 +51,7 @@ button, button:hover {
 }
 
 .headerblock{
-  width: 35vmax;
+  width: 42vmax;
   height: 15vmax;
   margin: auto;
   position: relative;
@@ -118,24 +118,24 @@ h1 {
 }
 
 .electron1 {
-  margin: 93% 0% 0% -47%;
+  margin: 54% 0% 0% -30%;
   animation: electrons 3s linear infinite;
 }
 
 .electron2 {
-  margin: -74% 0% 0% -67%;
+  margin: -54% 0% 0% -31%;
   animation: electrons2 2.9s linear infinite;
   animation-delay: 0.2s; 
 }
 
 .electron3 {
-  margin: 58% 0% 0% 156%;
+  margin: 58% 0% 0% 141%;
   animation: electrons3 2.7s linear infinite;
   animation-delay: 0.8s; 
 }
 
 .electron4 {
-  margin: 105% 0% 0% 105%;
+  margin: 73% 0% 0% 105%;
   animation: electrons4 2.8s linear infinite;
   animation-delay: 0.4s; 
 }
@@ -165,7 +165,7 @@ h1 {
 }
 
 .electron9 {
-  margin: 153% 0% 0% 25%;
+  margin: 95% 0% 0% 25%;
   animation: electrons9 2.1s linear infinite  ;
   animation-delay: 0.12s;  
 }
@@ -456,10 +456,9 @@ h1 {
 
 /* ---------------------- */
 
-.fifthsection {
+.thirdsection {
   width: 100%;
-  height: 40vw;
-  margin-top: 10%;
+  height: 29vw;
   position: relative;
   overflow-x: hidden;
 }
@@ -500,6 +499,234 @@ h1 {
   animation: rotation1 5s linear infinite;
   animation-delay: 1.5s;
 }
+
+.fourthsection {
+  width: 100%;
+  height: 26vw;
+  font-family: 'InterBlack';
+  font-size: 4vw;
+  color: #161616;
+  text-align: center;
+  line-height: 116%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+h2 {
+  z-index: 4;
+  margin-top: 13%;
+}
+
+/* -------------------------------- */
+
+.balls {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.balls img {
+  width: 6vw;
+  height: 6vw;
+}
+
+.ball {
+  position: absolute;
+}
+
+.ball1 {
+  margin: 17% 0% 0% -48%;
+}
+
+.ball2 {
+  margin: 8% 0% 0% 52%;
+}
+
+.ball3 {
+  margin: 8% 0% 0% -30%;
+}
+
+.ball4 {
+  margin: 20% 0% 0% 40%;
+}
+
+.ball5 {
+  margin: 10% 0% 0% -36%;
+}
+
+.ball6 {
+  margin: 6% 0% 0% -13%;
+}
+
+.ball7 {
+  margin: 19% 0% 0% -22%;
+}
+
+.ball8 {
+  margin: 2% 0% 0% 15%;
+}
+
+.ball9 {
+  margin: 16% 0% 0% 65%;
+}
+
+.ball10 {
+  margin: 14% 0% 0% 21%;
+}
+
+.ball11 {
+  margin: 13% 0% 0% -1%;
+}
+
+.ball12 {
+  margin: 4% 0% 0% -8%;
+}
+
+.ball13 {
+  margin: 14% 0% 0% -15%;
+}
+
+.ball14 {
+  margin: 5% 0% 0% 22%;
+}
+
+.ball15 {
+  margin: 10% 0% 0% -29%;
+}
+
+.ball16 {
+  margin: 15% 0% 0% 36%;
+}
+
+.ball17 {
+  margin: 2% 0% 0% -32%;
+}
+
+.ball18 {
+  margin: 6% 0% 0% 3%;
+}
+
+.ball19 {
+  margin: 9% 0% 0% 70%;
+}
+
+.ball20 {
+  margin: 14% 0% 0% -57%;
+}
+
+
+
+
+.ball21 {
+  margin: 17% 0% 0% -27%;
+}
+
+.ball22 {
+  margin: 8% 0% 0% 30%;
+}
+
+.ball23 {
+  margin: 18% 0% 0% -20%;
+}
+
+.ball24 {
+  margin: 2% 0% 0% 35%;
+}
+
+.ball25 {
+  margin: 10% 0% 0% 36%;
+}
+
+.ball26 {
+  margin: 6% 0% 0% 13%;
+}
+
+.ball27 {
+  margin: 4% 0% 0% -22%;
+}
+
+.ball28 {
+  margin: 10% 0% 0% 1%;
+}
+
+.ball29 {
+  margin: 9% 0% 0% 23%;
+}
+
+.ball30 {
+  margin: 18% 0% 0% 15%;
+}
+
+.ball31 {
+  margin: 13% 0% 0% -5%;
+}
+
+.ball32 {
+  margin: 12% 0% 0% -6%;
+}
+
+.ball33 {
+  margin: 10% 0% 0% -13%;
+}
+
+.ball34 {
+  margin: 7% 0% 0% 12%;
+}
+
+.ball35 {
+  margin: 9% 0% 0% -25%;
+}
+
+.ball36 {
+  margin: 8% 0% 0% 33%;
+}
+
+.ball37 {
+  margin: 17% 0% 0% -40%;
+}
+
+.ball38 {
+  margin: 11% 0% 0% -24%;
+}
+
+.ball39 {
+  margin: 13% 0% 0% 11%;
+}
+
+.ball40 {
+  margin: 6% 0% 0% -38%;
+}
+
+.ball1, .ball5, .ball10, .ball15, .ball20, .ball25, .ball30, .ball35, .ball40 {
+  animation: balls 3s ease infinite;
+}
+
+.ball2, .ball6, .ball11, .ball16, .ball21, .ball26, .ball31, .ball36 {
+  animation: balls1 5s linear infinite;
+}
+
+.ball3, .ball7, .ball12, .ball17, .ball22, .ball27, .ball32, .ball37 {
+  animation: balls2 5s linear infinite;
+}
+
+.ball4, .ball8, .ball13, .ball18, .ball23, .ball28, .ball33, .ball38 {
+  animation: balls3 5s linear infinite;
+}
+
+.ball9, .ball14, .ball19, .ball24, .ball29, .ball34, .ball39 {
+  animation: balls4 5s linear infinite;
+}
+
+@keyframes balls {
+  0% {transform: translate(5%, -5%);}
+  25% {transform: translate(5%, -5%);}
+  50% {transform: translate(-5%, -5%);}
+  75% {transform: translate(-5%, 5%);}
+  100% {transform: translate(5%, -5%);}
+}
+
+/* -------------------------------- */
 
 
 footer {
