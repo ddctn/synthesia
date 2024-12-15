@@ -168,3 +168,16 @@
   95% {opacity: 0%;}
   100% {opacity: 100%;}
 }
+
+@keyframes blink {
+  0%{color: #9BB6FF;}
+  5%{color: #161616;}
+  15%{color: #9BB6FF;}
+  10%{color: #161616;}
+  35%{color: #9BB6FF;}
+  40%{color: #161616;}
+  65%{color: #9BB6FF;}
+  75%{color: #161616;}
+  90%{color: #9BB6FF;}
+  100%{color: #161616;}
+}

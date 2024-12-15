@@ -18,7 +18,7 @@ button, button:hover {
   cursor: url(../images/cursor.svg), auto;
 }
 
-.mainsection {
+.firstsection {
   width: 100%;
   height: 55vw;
   overflow: hidden;
@@ -80,30 +80,14 @@ h1 {
   height: 1.8vw;
 }
 
-.proton1 {
-  margin: -20% 0% 0% 4%;
-}
-.proton2 {
-  margin: -19% 0% 0% 33%;
-}
-.proton3 {
-  margin: 7% 0% 0% 16%;
-}
-.proton4 {
-  margin: -3% 0% 0% 45%;
-}
-.proton5 {
-  margin: -21% 0% 0% 63%;
-}
-.proton6 {
-  margin: 11% 0% 0% 79%;
-}
-.proton7 {
-  margin: -13% 0% 0% 97%;
-}
-.proton8 {
-  margin: 13% 0% 0% 107%;
-}
+.proton1 {margin: -20% 0% 0% 4%;}
+.proton2 {margin: -19% 0% 0% 33%;}
+.proton3 {margin: 7% 0% 0% 16%;}
+.proton4 {margin: -3% 0% 0% 45%;}
+.proton5 {margin: -21% 0% 0% 63%;}
+.proton6 {margin: 11% 0% 0% 79%;}
+.proton7 {margin: -13% 0% 0% 97%;}
+.proton8 {margin: 13% 0% 0% 107%;}
 
 .electron {
   width: 1.8vw;
@@ -175,9 +159,6 @@ h1 {
   animation: electrons 2s linear infinite;
   animation-delay: 0.6s;  
 }
-
-
-/*--------------------------------------------------------*/
 
 .secondsection {
   display: block;
@@ -352,8 +333,6 @@ h1 {
   align-items: flex-end;
   animation: wavytext1 5s ease infinite;
 }
-
-/* ---------------------- */
 
 .fourth {
   width: 100%;
@@ -531,168 +510,51 @@ h2 {
   height: 6vw;
 }
 
-.ball {
-  position: absolute;
-}
+.ball {position: absolute;}
 
-.ball1 {
-  margin: 17% 0% 0% -48%;
-}
+.ball1 {margin: 17% 0% 0% -48%;}
+.ball2 {margin: 8% 0% 0% 52%;}
+.ball3 {margin: 8% 0% 0% -30%;}
+.ball4 {margin: 20% 0% 0% 40%;}
+.ball5 {margin: 10% 0% 0% -36%;}
+.ball6 {margin: 6% 0% 0% -13%;}
+.ball7 {margin: 19% 0% 0% -22%;}
+.ball8 {margin: 2% 0% 0% 15%;}
+.ball9 {margin: 16% 0% 0% 45%;}
+.ball10 {margin: 14% 0% 0% 21%;}
 
-.ball2 {
-  margin: 8% 0% 0% 52%;
-}
+.ball11 {margin: 13% 0% 0% -1%;}
+.ball12 {margin: 4% 0% 0% -8%;}
+.ball13 {margin: 14% 0% 0% -15%;}
+.ball14 {margin: 5% 0% 0% 22%;}
+.ball15 {margin: 10% 0% 0% -29%;}
+.ball16 {margin: 15% 0% 0% 36%;}
+.ball17 {margin: 2% 0% 0% -32%;}
+.ball18 {margin: 6% 0% 0% 3%;}
+.ball19 {margin: 9% 0% 0% 70%;}
+.ball20 {margin: 14% 0% 0% -57%;}
 
-.ball3 {
-  margin: 8% 0% 0% -30%;
-}
+.ball21 {margin: 17% 0% 0% -27%;}
+.ball22 {margin: 8% 0% 0% 30%;}
+.ball23 {margin: 18% 0% 0% -20%;}
+.ball24 {margin: 2% 0% 0% 35%;}
+.ball25 {margin: 10% 0% 0% 36%;}
+.ball26 {margin: 6% 0% 0% 13%;}
+.ball27 {margin: 4% 0% 0% -22%;}
+.ball28 {margin: 10% 0% 0% 1%;}
+.ball29 {margin: 9% 0% 0% 23%;}
+.ball30 {margin: 18% 0% 0% 15%;}
 
-.ball4 {
-  margin: 20% 0% 0% 40%;
-}
-
-.ball5 {
-  margin: 10% 0% 0% -36%;
-}
-
-.ball6 {
-  margin: 6% 0% 0% -13%;
-}
-
-.ball7 {
-  margin: 19% 0% 0% -22%;
-}
-
-.ball8 {
-  margin: 2% 0% 0% 15%;
-}
-
-.ball9 {
-  margin: 16% 0% 0% 45%;
-}
-
-.ball10 {
-  margin: 14% 0% 0% 21%;
-}
-
-.ball11 {
-  margin: 13% 0% 0% -1%;
-}
-
-.ball12 {
-  margin: 4% 0% 0% -8%;
-}
-
-.ball13 {
-  margin: 14% 0% 0% -15%;
-}
-
-.ball14 {
-  margin: 5% 0% 0% 22%;
-}
-
-.ball15 {
-  margin: 10% 0% 0% -29%;
-}
-
-.ball16 {
-  margin: 15% 0% 0% 36%;
-}
-
-.ball17 {
-  margin: 2% 0% 0% -32%;
-}
-
-.ball18 {
-  margin: 6% 0% 0% 3%;
-}
-
-.ball19 {
-  margin: 9% 0% 0% 70%;
-}
-
-.ball20 {
-  margin: 14% 0% 0% -57%;
-}
-
-.ball21 {
-  margin: 17% 0% 0% -27%;
-}
-
-.ball22 {
-  margin: 8% 0% 0% 30%;
-}
-
-.ball23 {
-  margin: 18% 0% 0% -20%;
-}
-
-.ball24 {
-  margin: 2% 0% 0% 35%;
-}
-
-.ball25 {
-  margin: 10% 0% 0% 36%;
-}
-
-.ball26 {
-  margin: 6% 0% 0% 13%;
-}
-
-.ball27 {
-  margin: 4% 0% 0% -22%;
-}
-
-.ball28 {
-  margin: 10% 0% 0% 1%;
-}
-
-.ball29 {
-  margin: 9% 0% 0% 23%;
-}
-
-.ball30 {
-  margin: 18% 0% 0% 15%;
-}
-
-.ball31 {
-  margin: 13% 0% 0% -5%;
-}
-
-.ball32 {
-  margin: 12% 0% 0% -6%;
-}
-
-.ball33 {
-  margin: 10% 0% 0% -13%;
-}
-
-.ball34 {
-  margin: 7% 0% 0% 12%;
-}
-
-.ball35 {
-  margin: 9% 0% 0% -25%;
-}
-
-.ball36 {
-  margin: 8% 0% 0% 33%;
-}
-
-.ball37 {
-  margin: 17% 0% 0% 20%;
-}
-
-.ball38 {
-  margin: 11% 0% 0% -24%;
-}
-
-.ball39 {
-  margin: 13% 0% 0% 11%;
-}
-
-.ball40 {
-  margin: 6% 0% 0% -38%;
+.ball31 {margin: 13% 0% 0% -5%;}
+.ball32 {margin: 12% 0% 0% -6%;}
+.ball33 {margin: 10% 0% 0% -13%;}
+.ball34 {margin: 7% 0% 0% 12%;}
+.ball35 {margin: 9% 0% 0% -25%;}
+.ball36 {margin: 8% 0% 0% 33%;}
+.ball37 {margin: 17% 0% 0% 20%;}
+.ball38 {margin: 11% 0% 0% -24%;}
+.ball39 {margin: 13% 0% 0% 11%;}
+.ball40 {margin: 6% 0% 0% -38%;
 }
 
 .ball1, .ball10,  .ball20, .ball25 {
@@ -735,11 +597,9 @@ h2 {
   animation: balls9 5s linear infinite;
 }
 
-.ball37, .ball13, .ball6   {
+.ball37, .ball13, .ball6, .ball5   {
   animation: balls10 5s linear infinite;
 }
-
-
 
 @keyframes balls {
   0% {transform: translateX(0%);}
@@ -801,9 +661,6 @@ h2 {
   100% {transform: translateX(0%);}
 }
 
-/* -------------------------------- */
-
-
 footer {
   width: 100%;
   height: 25vw;
@@ -832,19 +689,6 @@ footer {
   animation: blink 1.9s linear infinite;
 }
 
-@keyframes blink {
-  0%{color: #9BB6FF;}
-  5%{color: #161616;}
-  15%{color: #9BB6FF;}
-  10%{color: #161616;}
-  35%{color: #9BB6FF;}
-  40%{color: #161616;}
-  65%{color: #9BB6FF;}
-  75%{color: #161616;}
-  90%{color: #9BB6FF;}
-  100%{color: #161616;}
-}
-
 .footerproton {
   position: absolute;
   width: 1.8vw;
@@ -857,37 +701,14 @@ footer {
   height: 1.8vw;
 }
 
-.footerprot1 {
-  margin: 10% 0 0 -80%;
-}
-
-.footerprot2 {
-  margin: 16% 0 0 0;
-}
-
-.footerprot3 {
-  margin: 5% 0 0 68%;
-}
-
-.footerprot4 {
-  margin: 20% 0 0 -50%;
-}
-
-.footerprot5 {
-  margin: 6% 0 0 -27%;
-}
-
-.footerprot6 {
-  margin: 2% 0 0 33%;
-}
-
-.footerprot7 {
-  margin: 13% 0 0 48%;
-}
-
-.footerprot8 {
-  margin: 18% 0 0 85%;
-}
+.footerprot1 {margin: 10% 0 0 -80%;}
+.footerprot2 {margin: 16% 0 0 0;}
+.footerprot3 {margin: 5% 0 0 68%;}
+.footerprot4 {margin: 20% 0 0 -50%;}
+.footerprot5 {margin: 6% 0 0 -27%;}
+.footerprot6 {margin: 2% 0 0 33%;}
+.footerprot7 {margin: 13% 0 0 48%;}
+.footerprot8 {margin: 18% 0 0 85%;}
 
 .footerelectron {
   position: absolute;
@@ -929,6 +750,3 @@ footer {
   margin: 18% 0 0 -33%;
   animation: circlelectron 1.35s linear infinite;
 }
-
-
-
