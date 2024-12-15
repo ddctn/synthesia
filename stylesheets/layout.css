@@ -568,7 +568,7 @@ h2 {
 }
 
 .ball9 {
-  margin: 16% 0% 0% 65%;
+  margin: 16% 0% 0% 45%;
 }
 
 .ball10 {
@@ -614,9 +614,6 @@ h2 {
 .ball20 {
   margin: 14% 0% 0% -57%;
 }
-
-
-
 
 .ball21 {
   margin: 17% 0% 0% -27%;
@@ -683,7 +680,7 @@ h2 {
 }
 
 .ball37 {
-  margin: 17% 0% 0% -40%;
+  margin: 17% 0% 0% 20%;
 }
 
 .ball38 {
@@ -698,32 +695,110 @@ h2 {
   margin: 6% 0% 0% -38%;
 }
 
-.ball1, .ball5, .ball10, .ball15, .ball20, .ball25, .ball30, .ball35, .ball40 {
-  animation: balls 3s ease infinite;
+.ball1, .ball10,  .ball20, .ball25 {
+  animation: balls 5s linear infinite;
 }
 
-.ball2, .ball6, .ball11, .ball16, .ball21, .ball26, .ball31, .ball36 {
+.ball2, .ball16, .ball26, .ball31 {
   animation: balls1 5s linear infinite;
 }
 
-.ball3, .ball7, .ball12, .ball17, .ball22, .ball27, .ball32, .ball37 {
+.ball3, .ball7, .ball12, .ball22 {
   animation: balls2 5s linear infinite;
 }
 
-.ball4, .ball8, .ball13, .ball18, .ball23, .ball28, .ball33, .ball38 {
+ .ball8, .ball18, .ball28, .ball38 {
   animation: balls3 5s linear infinite;
 }
 
-.ball9, .ball14, .ball19, .ball24, .ball29, .ball34, .ball39 {
+ .ball14, .ball19, .ball24, .ball34{
   animation: balls4 5s linear infinite;
 }
 
+.ball5, .ball21, .ball23, .ball32 {
+  animation: balls5 5s linear infinite;
+}
+
+.ball30, .ball17, .ball33, .ball40 {
+  animation: balls6 5s linear infinite;
+}
+
+.ball35, .ball11, .ball4 {
+  animation: balls7 5s linear infinite;
+}
+
+.ball39, .ball29, .ball9 {
+  animation: balls8 5s linear infinite;
+}
+
+.ball15, .ball36, .ball27 {
+  animation: balls9 5s linear infinite;
+}
+
+.ball37, .ball13, .ball6   {
+  animation: balls10 5s linear infinite;
+}
+
+
+
 @keyframes balls {
-  0% {transform: translate(5%, -5%);}
-  25% {transform: translate(5%, -5%);}
-  50% {transform: translate(-5%, -5%);}
-  75% {transform: translate(-5%, 5%);}
-  100% {transform: translate(5%, -5%);}
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(60%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls2 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(70%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls3 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(-70%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls4 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(-60%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls5 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(-90%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls6 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(90%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls7 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(84%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls8 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(-80%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls9 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(69%);}
+  100% {transform: translateX(0%);}
+}
+
+@keyframes balls10 {
+  0% {transform: translateX(0%);}
+  50% {transform: translateX(-76%);}
+  100% {transform: translateX(0%);}
 }
 
 /* -------------------------------- */

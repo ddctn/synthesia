@@ -1,10 +1,23 @@
-@media screen and (min-width: 1921px) {
+/* 
+Desktop
+1920x1080 Full HD
+1440x900 (MacBook Pro ’15), 
+1280x900 WXGA+
+1366x768 WXGA
+1024x768 XGA
+Tablet
+768x1024 XGA
+Mobile
+414x896 (IPhone)
+360x640 nHD (Android) */
+
+/* @media screen and (min-width: 1921px) {
   
-}
+} */
 
-@media screen and (min-width: 1441px) and (max-width: 1920px) {
+/* @media screen and (min-width: 1441px) and (max-width: 1920px) {
 
-}
+} */
 
 @media screen and (min-width: 769px) and (max-width: 1440px) {
 
@@ -12,9 +25,43 @@
 
 
 @media screen and (min-width: 415px) and (max-width: 768px) {
-   
-}
+ 
+} 
 
-@media screen and (max-width: 414px) {
+@media screen and (min-width: 360px) and (max-width: 414px) {
+  .headerblock {margin-top: 9vh;}
+
+  .proton img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+
+  .electron img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+
+  .proton8 {margin: 13% 0% 0% 96%;}
+
+  .electron1 {margin: 7% 0% 0% 12%;}
+  .electron2 {margin: 0% 0% 0% -2%;}
+  .electron3 {margin: 12% 0% 0% 87%;}
+  .electron4 {margin: 12% 0% 0% 84%;}
+  .electron5 {margin: 7% 0% 0% 63%;}
+  .electron6 {margin: 26% 0% 0% 94%;}
+  .electron7 {margin: 5% 0% 0% 32%;}
+  .electron8 {margin: -12% 0% 0% 66%;}
+  .electron9 {margin: 12% 0% 0% 25%;}
+  .electron10 {margin: -3% 0% 0% 14%;}
+
+  .rotating-div { 
+    width: 60vw;
+    height: 60vw;
+    border: 2px dashed #9BB6FF;
+  }
+
+  .wavetextblock {
+    margin-top: 56%;
+  }
 
 }
