@@ -1,5 +1,5 @@
 @keyframes row {
-  0%   {transform: translateX(-50%)}
+  0%   {transform: translateX(-51%)}
   100% {transform: translateX(-3%)}
 }
 

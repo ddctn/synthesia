@@ -11,13 +11,11 @@ Mobile
 414x896 (IPhone)
 360x640 nHD (Android) */
 
-/* @media screen and (min-width: 1921px) {
+/* @media screen and (min-width: 1921px) {}   /*min-width - ширина, начиная с которой работает адаптив */
   
-} */
 
-/* @media screen and (min-width: 1441px) and (max-width: 1920px) {
 
-} */
+/* @media screen and (min-width: 1441px) and (max-width: 1920px) {} max-width - ширина, до которой работает адаптив */
 
 @media screen and (min-width: 769px) and (max-width: 1440px) {
 
