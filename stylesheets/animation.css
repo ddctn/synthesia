@@ -181,3 +181,13 @@
   90%{color: #9BB6FF;}
   100%{color: #161616;}
 }
+
+@keyframes rotatecircle {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes rotatecircle2 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+}   

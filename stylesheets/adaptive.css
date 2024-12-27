@@ -6,7 +6,7 @@ Desktop
 1366x768 WXGA
 1024x768 XGA
 Tablet
-768x1024 XGA
+768x1024 XGA 
 Mobile
 414x896 (IPhone)
 360x640 nHD (Android) */
@@ -34,12 +34,25 @@ Mobile
     height: 2.2vw;
   }
 
+  h1 {
+    font-size: 15vw;
+    margin-left: 10%;
+  }
+
   .electron img {
     width: 2.2vw;
     height: 2.2vw;
   }
 
-  .proton8 {margin: 13% 0% 0% 96%;}
+  .rowcontainer {height: 3vwl}
+
+  .row {font-size: 3vw}
+
+  .headerblock {width: 80vw;}
+
+  .proton1 {margin: -20% 0% 0% 15%;}
+  .proton7 {margin: -13% 0% 0% 89%;}
+  .proton8 {margin: 7% 0% 0% 59%}
 
   .electron1 {margin: 7% 0% 0% 12%;}
   .electron2 {margin: 0% 0% 0% -2%;}
@@ -52,6 +65,22 @@ Mobile
   .electron9 {margin: 12% 0% 0% 25%;}
   .electron10 {margin: -3% 0% 0% 14%;}
 
+  .secondsection {
+    font-size: 4.5vw;
+  }
+
+  .center {
+    margin-top: -60%;
+  }
+
+  .wavesblock {
+    margin-top: 66%;
+  }
+
+  .fallingtext {
+    height: 63vw;
+  }
+
   .rotating-div { 
     width: 60vw;
     height: 60vw;
@@ -59,7 +88,96 @@ Mobile
   }
 
   .wavetextblock {
-    margin-top: 56%;
+    margin-top: 63%;
+    font-size: 3vw;
   }
+
+  .fourth {
+    width: 100vw;
+    height: 100vw;
+  }
+  .circle {
+    width: 100vw;
+    height: 100vw;
+  }
+
+  .circle {
+    background-size: 100vw 100vw;
+  }
+
+  .circlelectron11, .circlelectron10, .circlelectron9, .circlelectron8, .circlelectron7 {
+    display: none;
+  } 
+
+  .circlelectron1 {
+    margin: 77% 45% 0% 0%;
+  }
+
+  .circlelectron4 {
+    margin: 59% 0% 0% 78%;
+  }
+
+  .circlelectron5 {
+    margin: 82% 0% 0% 26%;
+  }
+
+  .circlelectron6 {
+    margin: 9% 64% 0% 45%;
+  }
+
+  .btn {
+    width: 100vw;
+    height: 70vw;
+  }
+
+  .circlelectron img {
+    width: 5.8vw;
+    height: 5.8vw;
+}
+
+.circlelectron {
+  width: 5.8vw;
+  height: 5.8vw;
+}
+
+.thirdsection {
+  height: 77vw;
+}
+
+.circles img {
+  width: 50vw;
+  height: 49vw;
+}
+
+.circle1, .circle2, .circle3, .circle4 {
+  position: absolute;
+  border-radius: 50%;
+  width: 50vw;
+  height: 50vw;
+}
+
+.circle1, .circle3 {
+  animation: rotatecircle 3s linear infinite;
+}
+
+.circle2, .circle4 {
+  animation: rotatecircle2 3s linear infinite;
+}
+
+.circle1 {
+  margin: 0% 0 0 -40%;
+}
+
+.circle2 {
+  margin: 0% 0 0 40%;
+}
+
+.circle3 {
+  margin: 20% 0 0 -40%;
+}
+
+.circle4 {
+  margin: 20% 0 0 40%;
+}
 
 }
