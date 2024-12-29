@@ -1,15 +1,4 @@
-/* 
-Desktop
-1920x1080 Full HD
-1440x900 (MacBook Pro ’15), 
-1280x900 WXGA+
-1366x768 WXGA
-1024x768 XGA
-Tablet
-768x1024 XGA 
-Mobile
-414x896 (IPhone)
-360x640 nHD (Android) */
+/* tablet */
 
 @media screen and (min-width: 416px) and (max-width: 1023px) {
 
@@ -57,8 +46,9 @@ Mobile
   .electron9 {margin: 12% 0% 0% 25%;}
   .electron10 {margin: -3% 0% 0% 14%;}
 
-  .secondsection {
-    font-size: 3vw;
+  .fallingtext {
+    font-size: 2vw;
+    height: 63vw;
   }
 
   .center {
@@ -67,10 +57,6 @@ Mobile
 
   .wavesblock {
     margin-top: 66%;
-  }
-
-  .fallingtext {
-    height: 63vw;
   }
 
   .rotating-div { 
@@ -124,62 +110,78 @@ Mobile
   }
 
   .circlelectron img {
-    width: 5.8vw;
-    height: 5.8vw;
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+
+  .circlelectron {
+    width: 4.8vw;
+    height: 4.8vw;
+  }
+
+  .thirdsection {
+    height: 85vw;
+  }
+
+  .circles img {
+    width: 50vw;
+    height: 49vw;
+  }
+
+  .circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .circle1, .circle3 {
+    animation: rotatecircle 3s linear infinite;
+  }
+
+  .circle2, .circle4 {
+    animation: rotatecircle2 3s linear infinite;
+  }
+
+  .circle1 {
+    margin: 0% 0 0 -40%;
+  }
+
+  .circle2 {
+    margin: 0% 0 0 40%;
+  }
+
+  .circle3 {
+    margin: 20% 0 0 -40%;
+  }
+
+  .circle4 {
+    margin: 20% 0 0 40%;
+  }
+
+  .fourthsection {
+    font-size: 5vw;
+  }
+
+
+  footer {
+    font-size: 3vw;
+  }
+
+  .footerproton {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+
+  .footerproton img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
 }
 
-.circlelectron {
-  width: 5.8vw;
-  height: 5.8vw;
-}
+/* mobile */
 
-.thirdsection {
-  height: 85vw;
-}
-
-.circles img {
-  width: 50vw;
-  height: 49vw;
-}
-
-.circle1, .circle2, .circle3, .circle4 {
-  position: absolute;
-  border-radius: 50%;
-  width: 50vw;
-  height: 50vw;
-}
-
-.circle1, .circle3 {
-  animation: rotatecircle 3s linear infinite;
-}
-
-.circle2, .circle4 {
-  animation: rotatecircle2 3s linear infinite;
-}
-
-.circle1 {
-  margin: 0% 0 0 -40%;
-}
-
-.circle2 {
-  margin: 0% 0 0 40%;
-}
-
-.circle3 {
-  margin: 20% 0 0 -40%;
-}
-
-.circle4 {
-  margin: 20% 0 0 40%;
-}
-
-.fourthsection {
-  font-size: 5vw;
-}
-
-}
-
-@media screen and (min-width: 360px) and (max-width: 414px) {
+@media screen and (max-width: 414px) {
   .headerblock {
     margin-top: 9vh;
   }
@@ -224,20 +226,20 @@ Mobile
   .electron9 {margin: 12% 0% 0% 25%;}
   .electron10 {margin: -3% 0% 0% 14%;}
 
-  .secondsection {
-    font-size: 4.5vw;
+  .fallingtext {
+    height: 63vw;
+    font-size: 3vw;
   }
 
   .center {
     margin-top: -60%;
   }
+  .rotating-div {
+    border: 2px dashed #9BB6FF;
+  }
 
   .wavesblock {
     margin-top: 66%;
-  }
-
-  .fallingtext {
-    height: 63vw;
   }
 
   .rotating-div { 
@@ -248,7 +250,7 @@ Mobile
 
   .wavetextblock {
     margin-top: 63%;
-    font-size: 3vw;
+    font-size: 2.5vw;
     height: 45vw;
   }
 
@@ -291,57 +293,70 @@ Mobile
   }
 
   .circlelectron img {
-    width: 5.8vw;
-    height: 5.8vw;
-}
+    width: 5vw;
+    height: 5vw;
+  }
 
-.circlelectron {
-  width: 5.8vw;
-  height: 5.8vw;
-}
+  .circlelectron {
+    width: 5vw;
+    height: 5vw;
+  }
 
-.thirdsection {
-  height: 85vw;
-}
+  .thirdsection {
+    height: 85vw;
+  }
 
-.circles img {
-  width: 50vw;
-  height: 49vw;
-}
+  .circles img {
+    width: 50vw;
+    height: 49vw;
+  }
 
-.circle1, .circle2, .circle3, .circle4 {
-  position: absolute;
-  border-radius: 50%;
-  width: 50vw;
-  height: 50vw;
-}
+  .circle1, .circle2, .circle3, .circle4 {
+    position: absolute;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+  }
 
-.circle1, .circle3 {
-  animation: rotatecircle 3s linear infinite;
-}
+  .circle1, .circle3 {
+    animation: rotatecircle 3s linear infinite;
+  }
 
-.circle2, .circle4 {
-  animation: rotatecircle2 3s linear infinite;
-}
+  .circle2, .circle4 {
+    animation: rotatecircle2 3s linear infinite;
+  }
 
-.circle1 {
-  margin: 0% 0 0 -40%;
-}
+  .circle1 {
+    margin: 0% 0 0 -40%;
+  }
 
-.circle2 {
-  margin: 0% 0 0 40%;
-}
+  .circle2 {
+    margin: 0% 0 0 40%;
+  }
 
-.circle3 {
-  margin: 20% 0 0 -40%;
-}
+  .circle3 {
+    margin: 20% 0 0 -40%;
+  }
 
-.circle4 {
-  margin: 20% 0 0 40%;
-}
+  .circle4 {
+    margin: 20% 0 0 40%;
+  }
 
-.fourthsection {
-  font-size: 5vw;
-}
+  .fourthsection {
+    font-size: 5vw;
+  }
 
+  footer {
+    font-size: 3vw;
+  }
+
+  .footerproton {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+
+  .footerproton img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
 }
