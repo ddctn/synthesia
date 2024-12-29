@@ -177,6 +177,16 @@
     width: 2.2vw;
     height: 2.2vw;
   }
+
+  .footerelectron {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+  
+  .footerelectron img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
 }
 
 /* mobile */
@@ -359,4 +369,15 @@
     width: 2.2vw;
     height: 2.2vw;
   }
+
+  .footerelectron {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+  
+  .footerelectron img {
+    width: 2.2vw;
+    height: 2.2vw;
+  }
+  
 }
